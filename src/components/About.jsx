@@ -1,7 +1,9 @@
 import React from 'react'
 import './About.css'
+import { logoBase64 } from '../images.js'
 
 function About() {
+  const logoImage = logoBase64
   return (
     <section id="about" className="about">
       <div className="about-container">
@@ -45,7 +47,7 @@ function About() {
           </div>
         </div>
         <div className="about-image">
-          <img src="./img/logo.jpg" alt="柯柯头像" className="avatar-image" />
+          <img src={logoImage} alt="柯柯头像" className="avatar-image" />
         </div>
       </div>
     </section>

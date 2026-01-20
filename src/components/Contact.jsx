@@ -1,5 +1,6 @@
 import React from 'react'
 import './Contact.css'
+import { gzhBase64, wechatBase64 } from '../images.js'
 
 function Contact() {
   const contactMethods = [
@@ -13,13 +14,13 @@ function Contact() {
       icon: '💬',
       title: '公众号',
       value: 'Jasonakeke',
-      qrcode: './img/gzh.jpg'
+      qrcode: gzhBase64
     },
     {
       icon: '📱',
       title: '微信',
       value: '扫码添加',
-      qrcode: './img/wechat.jpg'
+      qrcode: wechatBase64
     },
     {
       icon: '🤝',

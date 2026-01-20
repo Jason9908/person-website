@@ -27,3 +27,7 @@ lerna-debug.log*
 .env.development.local
 .env.test.local
 .env.production.local
+
+# 资源源文件（已内联到代码中）
+src/assets/
+public/img/*.txt
